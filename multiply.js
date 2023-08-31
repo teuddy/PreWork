@@ -19,16 +19,24 @@ const thisIsComplicated = () => {
   return res;
 };
 
-const thisIsEasier = () => {      
+const thisIsEasier = () => {
   return "EZ";
 };
-  
+
 const thiswillbeadded = () => {
   return "hey";
 };
 
+const thisWontBeAdded = () => {
+  return "No";
+};
+
 const thisIsAnotherChangeILike = () => {
   return "Hey buddy";
+};
+
+const hellNo = () => {
+  return "noooo";
 };
 
 const thisAsWell = () => {
