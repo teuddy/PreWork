@@ -15,3 +15,8 @@ const thisWillBeAdded = () => {
 const thisWillNotBeAdded = () => {
   return "This has not be Validted, Yet. at all";
 };
+
+
+const thisGood = () => {
+  return "This is really good code";
+};
