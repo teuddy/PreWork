@@ -10,3 +10,11 @@ const getPalindrome = (str) => {
   var lowRegStr = str.toLowerCase().replace(re, "");
   return reverseString(lowRegStr) === lowRegStr;
 };
+
+const thisWillBeAdded = () => {
+  return "pretty";
+};
+
+const thisWillNotBeAdded = () => {
+  return "fei";
+};
