@@ -23,3 +23,6 @@ const thisIsEasier = () => {
   return "EZ";
 };
   
+const thiswillbeadded = () => {
+  return "hey";
+};
