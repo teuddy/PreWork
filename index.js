@@ -1,6 +1,3 @@
-// amd workign on palindrome word
-
-// tested and validated
 const reverseString = (str) => {
   return str.split("").reverse().join("");
 };
@@ -16,5 +13,5 @@ const thisWillBeAdded = () => {
 };
 
 const thisWillNotBeAdded = () => {
-  return "This has not be Validted, Yet";
+  return "This has not be Validted, Yet. at all";
 };
