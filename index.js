@@ -12,7 +12,7 @@ const getPalindrome = (str) => {
 };
 
 const thisWillBeAdded = () => {
-  return "This is tested and validated";
+  return "This is tested and validated 100%";
 };
 
 const thisWillNotBeAdded = () => {
