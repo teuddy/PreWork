@@ -30,3 +30,7 @@ const thiswillbeadded = () => {
 const thisIsAnotherChangeILike = () => {
   return "Hey buddy";
 };
+
+const thisAsWell = () => {
+  return "hey people";
+};
