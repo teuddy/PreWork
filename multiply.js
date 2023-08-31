@@ -26,3 +26,7 @@ const thisIsEasier = () => {
 const thiswillbeadded = () => {
   return "hey";
 };
+
+const thisIsAnotherChangeILike = () => {
+  return "Hey buddy";
+};
