@@ -14,6 +14,11 @@ export const PAMELY = {
   heigh: 1.6,
 };
 
+const RAFAEL = {
+  age: 19,
+  name: "rafael",
+  height: 1.8,
+};
 const ZULEIKA = {
   age: "dont know",
   name: "zuleika",
