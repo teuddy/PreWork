@@ -30,3 +30,9 @@ const BELGICA = {
   name: "belgica",
   height: 1.6,
 };
+
+const RAFAEL_PADRE = {
+  age: "55",
+  name: "carlos",
+  height: 1.7,
+};
