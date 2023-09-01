@@ -36,3 +36,9 @@ const RAFAEL_PADRE = {
   name: "carlos",
   height: 1.7,
 };
+
+const WHO = {
+  age: "55",
+  name: "carlos",
+  height: 1.7,
+};
