@@ -24,3 +24,9 @@ const ZULEIKA = {
   name: "zuleika",
   height: 1.6,
 };
+
+const BELGICA = {
+  age: "always",
+  name: "belgica",
+  height: 1.6,
+};
