@@ -40,3 +40,34 @@ function calculateFactorial(n) {
     return n * calculateFactorial(n - 1);
   }
 }
+
+class ShoppingCart {
+  constructor() {
+    this.items = [];
+  }
+
+  addItem(itemName, price, quantity) {
+    this.items.push({ itemName, price, quantity });
+  }
+
+  removeItem(itemName) {
+    this.items = this.items.filter((item) => item.itemName !== itemName);
+  }
+
+  calculateTotal() {
+    return this.items.reduce(
+      (total, item) => total + item.price * item.quantity,
+      0
+    );
+  }
+
+  printReceipt() {
+    console.log("Receipt:");
+    for (const item of this.items) {
+      console.log(
+        `${item.itemName} - ${item.quantity} x $${item.price.toFixed(2)} each`
+      );
+    }
+    console.log(`Total: $${this.calculateTotal().toFixed(2)}`);
+  }
+}
